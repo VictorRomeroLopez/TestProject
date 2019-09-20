@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:layout_margin="16dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <!--
+    My Screen:
+    16 dp recomended for margins
+    -->
+
+    <!-- Email -->
+    <EditText
+        android:id="@+id/_userName"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="8dp"
+        android:gravity="center"
+        android:hint="Username"/>
+
+    <!-- Password -->
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="80dp"
+        android:gravity="left"
+        android:inputType="textPassword"
+        android:hint="Password"/>
+
+    <!--  Login Button  -->
+    <Button
+        android:id="@+id/_loginButton"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:text="Login"/>
+</LinearLayout>
